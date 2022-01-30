@@ -255,7 +255,7 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`Dragons-Userbot is`  **up-to-date**  `with`  "
+            "\n`My-Userbot is`  **Up-To-Date**  `with`  "
             f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
@@ -335,4 +335,4 @@ async def variable(var):
         )
     heroku_var = app.config()
     await edit_or_reply(var, f"`Changing gooddrg to baddrg wait for 2-3 minutes.`")
-    heroku_var["UPSTREAM_REPO"] = "https://github.com/TeamDragons/Dragons-Userbot"
+    heroku_var["UPSTREAM_REPO"] = "https://github.com/ridho17-ind/Dragons-Userbot"
