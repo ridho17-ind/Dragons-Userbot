@@ -21,7 +21,7 @@ StartTime = time.time()
 drgversion = "beta"
 
 if Config.UPSTREAM_REPO == "dragons":
-    UPSTREAM_REPO_URL = "https://github.com/TeamDragons/Dragons-Userbot"
+    UPSTREAM_REPO_URL = "https://github.com/ridho17-ind/Dragons-Userbot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
